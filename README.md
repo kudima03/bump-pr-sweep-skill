@@ -15,6 +15,19 @@ version line, and CI is green. Everything else is reported, not touched.
 | Command | `/bump-pr-sweep` | Explicitly kick off the sweep (extra instructions can be passed as arguments) |
 | Script | `skills/bump-pr-sweep/scripts/collect-bump-prs.sh` | Read-only collector: open bump PRs from all notifications as JSON Lines |
 
+## Install
+
+```
+/plugin install bump-pr-sweep-skill --marketplace kudima03/claude-plugins
+```
+
+or, with the marketplace already registered:
+
+```
+/plugin marketplace add https://github.com/kudima03/claude-plugins
+/plugin install bump-pr-sweep-skill@kudima03
+```
+
 ## Usage
 
 ```
